@@ -5,20 +5,22 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
   <title>Change Calculator</title>
 </head>
 
 <body>
   <!-- Write your markup here -->
-  <h1>Change Calculator</h1>
+  <h1 class="impact">C H A N G E</h1>
+  <h1 class="impact">C A L C U L A T O R</h1>
 
-  <input id="amount-due" type="text" placeholder="Total"></input>
+  <input id="amount-due" class="box" type="text" placeholder="Total"></input>
 
-  <input id="amount-received" type="text" placeholder="Paid"></input>
+  <input id="amount-received" class="paid" type="text" placeholder="Paid"></input>
 
   <button id="calculate-change" onClick="calcChange()">Tender</button><br></br>
 
-  <h6>Change</h6>
+  <h6 class="header">CHANGE</h6>
   <p id="output">0.00</p>
   <h6>Dollars</h6>
   <p id="dollars-output">0</p>

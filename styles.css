@@ -1,0 +1,20 @@
+.header {
+    color:seagreen;
+    font-size: 20px;
+}
+
+.box{
+    color: red;
+}
+
+.paid{
+    color:seagreen;
+}
+
+.impact{
+    color: black;
+    font-family: "Impact";
+    text-align: justify;
+    text-shadow: 3px 2px gray;
+
+}
